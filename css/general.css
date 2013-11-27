@@ -119,6 +119,15 @@ radio-div {
 	display:block;
 }
 
+.list-group-item {
+	display:block;
+}
+
+.list-group-item-inline {
+	display:inline-block;
+	padding-right:20px;
+}
+
 @media only screen and (min-width: 33em) {
 	h2 {
 	font-size:8em;
