@@ -15,6 +15,10 @@ body {
 	font-weight:800;
 	color:#FFF;
 }
+.blood {
+	background:url(../images/blood-1.svg);
+	background-repeat:no-repeat;
+}
 
 
 label {
@@ -66,13 +70,13 @@ button {
 }
 
 .error {
-	color:#F00;
+	color:#CCC;
 	padding:3px;
 	display:block;
 }
 
 .input-error {
-	border: 3px solid #f33;
+	border: 3px solid #900;
 }
 
 
@@ -112,21 +116,14 @@ fieldset {
 	border:double;
 }
 
-.radio {
-	margin-right:3%;
-	display:inline-block;
-}
-radio-div {
-	display:block;
-}
-
 .list-group-item {
 	display:block;
 }
 
 .list-group-item-inline {
 	display:inline-block;
-	padding-right:20px;
+	padding-right:10px;
+	text-align:left;
 }
 
 @media only screen and (min-width: 33em) {
