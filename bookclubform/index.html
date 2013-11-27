@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Book Club Form</title>
+<link href="../forms/css/general.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<article>
+
+<header>
+	<h2> Mystery </h2>
+	<p>Book Club</p>
+</header>
+
+<form>
+	
+	<div>
+	<label for="name">
+	Name
+	<strong class="error"> Please fill in your name</strong>
+	</label>
+		<input type="text" id="name" class="input-text  input-error" required>
+	</div>
+	
+	<div>
+	<label for="email">
+	E-mail address
+	Name
+	<strong class="error"> Please fill in your E-mail</strong>
+	</label>
+		<input type="email" id="email" class="input-text input-error" required maxlength="256">
+	</div>
+	
+	<div>
+	<label for="phone">Phone number</label>
+		<input type="tel" id="phone" class="input-text" maxlength="20" minlength="10">
+	</div>
+	
+		<div>
+	<label for="adress">Address</label>
+		<input type="" id="address" class="input-text" required>
+	</div>
+	
+		<div>
+	<label for="city">City</label>
+		<input type="" id="city" class="input-text" required>
+	</div>
+	
+	
+	<div>
+		<label for="province">Province </label>
+		<select id="province">
+			<option></option>
+			<option>Nunavut</option>
+			<option>Quebec</option>
+			<option>Northwest Territories</option>
+			<option>Ontario</option>
+			<option>British Columbia</option>
+			<option>Alberta</option>
+			<option>Saskatchewan</option>
+			<option>Manitobia</option>
+			<option>Yukon</option>
+			<option>Newfoundland</option>
+			<option>New Brunswick</option>
+			<option>Nova Scotia</option>
+			<option>P.E.I</option>
+		</select>
+	</div>
+
+	<div>
+	<label for="postalcode">Postal Code</label>
+		<input type="" id="postalcode" class="input-text" maxlength="7" required>
+	</div>
+	
+	
+	<div>
+	<label for="time">What time of day would be best to meet?</label>
+		<input type="time" id="time" required>
+		
+	</div>
+	
+	<div>
+	<label for="number">How many books have you read this year?</label>
+		<input type="number" id="number">	
+	</div>
+	
+	<div>
+		<label for="why"> Describe your favourite book & author</label>
+		<textarea form="why" class="input-text"></textarea>
+	</div>
+	
+	<fieldset>
+	<legend>How much do you love this genre? </legend>
+	<div class="radio">
+		<input type="radio" id="hate" name="satisfaction">
+		<label for="hate">Hate it</label>
+	</div>
+	<div class="radio">	
+		<input type="radio" id="dontenjoy" name="satisfaction">
+		<label for="dontenjoy">Don't enjoy it</label>
+	</div>
+		<input type="radio" id="neutral" name="satisfaction">
+		<label for="neutral"> It's Alright</label>
+		
+		<input type="radio" id="enjoy" name="satisfaction">
+		<label for="enjoy">Enjoy reading it</label>
+		
+		<input type="radio" id="favourite" name="satisfaction">
+		<label for="favourite">Absoulte favourite</label>
+
+	</fieldset>
+	
+	<img class="flex-img" src="images/footprints.svg" alt="alley">
+	
+	<div class="center">
+	<button type="submit">Send ! </button>
+	</div>
+	
+</form>
+
+</article>
+
+
+
+</body>
+</html>
