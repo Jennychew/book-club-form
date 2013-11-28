@@ -27,7 +27,7 @@ label {
 }
 
 input + label { /*if it comes after it has to be*/
-	display:inline
+	display:inline;
 }
 
 
@@ -60,6 +60,7 @@ button {
 	padding: 0.5em;
 	border-radius: 10px;
 	border: 2px solid #333;
+	background-color:#666;
 	background-image: linear-gradient(to bottom, #333, #000);
 	color:#fff;
 	cursor:pointer;
@@ -113,18 +114,9 @@ p {
 
 fieldset {
 	display:block;
-	border:double;
+	border:none;
 }
 
-.list-group-item {
-	display:block;
-}
-
-.list-group-item-inline {
-	display:inline-block;
-	padding-right:10px;
-	text-align:left;
-}
 
 @media only screen and (min-width: 33em) {
 	h2 {
@@ -141,5 +133,27 @@ form {
 	font-size:20px;
 	padding:3em;
 }
+
+
+}
+
+@media only screen and (min-width: 63em) {
+
+.list-group-item {
+	display:block;
+}
+
+.list-group-item-inline {
+	display:inline-block;
+	padding-right:10px;
+	text-align:left;
+}
 	
 }
+
+
+/*
+input, label {
+	float:left;
+}
+*/
